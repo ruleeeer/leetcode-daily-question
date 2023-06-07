@@ -1,8 +1,19 @@
 {
   "name": "leetcode-daily-question",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "get the daily question of leetcode",
-  "main": "index.mjs",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruleeeer/leetcode-daily-question.git"
+  },
+
   "type": "module",
   "engines": {
     "node": ">=16",
