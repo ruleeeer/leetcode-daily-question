@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 function getTodayQuestion() {
-    let query = {
+    const query = {
         "operationName": "questionOfToday",
         "variables": {},
         "query": "query questionOfToday { todayRecord {   question {     questionFrontendId     questionTitleSlug     __typename   }   lastSubmission {     id     __typename   }   date   userStatus   __typename }}"
