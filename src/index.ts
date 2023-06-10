@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 
 function getTodayQuestion() {
     const query = {
@@ -49,3 +48,5 @@ function getQuestionByTitleId(titleId) {
 
 
 export {getTodayQuestion, getQuestionByTitleId};
+
+getTodayQuestion().then(res=>console.log(res));
