@@ -1,22 +1,22 @@
-一个简单的获取leetcode每日一题的程序,当前仅支持获取leetcode.cn下的题目
+English | [简体中文](./README-zh.md)
+<hr>
 
-+ 简单,方便使用
-+ 无运行时依赖
-
-## 用例
-### 获取每日一题
+A simple program to get leetcode daily questions, currently only support to get question under the leetcode.cn
++ simple, easy to use
++ no runtime dependencies
+## Use Cases
+### Get the daily question
 ```ts
 import {getTodayQuestion} from 'leetcode-daily-question';
 getTodayQuestion()
-    .then(response => console.log(response))
-    .catch(err => console.error(err));
+.then(response => console.log(response))
+.catch(err => console.error(err));
 ```
-
-### 根据标题获取题目
+### Get the title according to the title
 ```ts
 import {getQuestionByTitleId} from 'leetcode-daily-question';
-const titleId = 'two-sum'
+const titleId = 'two-sum';
 getQuestionByTitleId()
-    .then(response => console.log(response))
-    .catch(err => console.error(err));
+.then(response => console.log(response))
+.catch(err => console.error(err));
 ```
