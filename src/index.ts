@@ -48,5 +48,3 @@ function getQuestionByTitleId(titleId) {
 
 
 export {getTodayQuestion, getQuestionByTitleId};
-
-getTodayQuestion().then(res=>console.log(res));
