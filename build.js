@@ -7,5 +7,5 @@ build({
     target: 'node16',
     bundle: true,
     format:"esm",
-    // minify:true
+    minify:true
 }).catch(() => process.exit(1));
