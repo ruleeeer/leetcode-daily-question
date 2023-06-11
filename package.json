@@ -1,6 +1,6 @@
 {
   "name": "leetcode-daily-question",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "get the daily question of leetcode",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "build": "node build.js",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path ."
   },
   "keywords": [
     "leetcode",
