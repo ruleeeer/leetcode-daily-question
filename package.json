@@ -2,8 +2,12 @@
   "name": "leetcode-daily-question",
   "version": "0.0.3",
   "description": "get the daily question of leetcode",
-  "main": "dist/index.mjs",
+  "main": "dist/index.cjs",
   "module": "dist/index.mjs",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
+  },
   "files": [
     "dist",
     "README.md",
