@@ -1,4 +1,4 @@
-English | [简体中文](./README-zh.md)
+English | [简体中文](./README_ZH.md)
 <hr>
 
 A simple program to get leetcode daily questions, currently only support to get question under the leetcode.cn
