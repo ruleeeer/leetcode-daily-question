@@ -5,6 +5,10 @@ A simple program to get leetcode daily questions, currently only support to get 
 + simple, easy to use
 + no runtime dependencies
 ## Use Cases
+### install
+``` shell
+npm install leetcode-daily-question
+```
 ### Get the daily question
 ```ts
 import {getTodayQuestion} from 'leetcode-daily-question';
